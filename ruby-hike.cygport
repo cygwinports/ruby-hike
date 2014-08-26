@@ -2,7 +2,13 @@ inherit rubygem
 
 NAME="ruby-hike"
 VERSION=1.2.3
-RELEASE=1
+RELEASE=2
 CATEGORY="Ruby"
 SUMMARY="Ruby hike extension"
 DESCRIPTION="A Ruby library for finding files in a set of paths."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_hike_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_hike_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
