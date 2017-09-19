@@ -1,8 +1,8 @@
 inherit rubygem
 
 NAME="ruby-hike"
-VERSION=1.2.3
-RELEASE=2
+VERSION=2.1.3
+RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby hike extension"
 DESCRIPTION="A Ruby library for finding files in a set of paths."
